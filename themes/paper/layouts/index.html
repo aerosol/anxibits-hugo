@@ -1,0 +1,118 @@
+{{ partial "header.html" . }}
+<div class="row">
+  <div class="twelve columns">
+    <h3 class="chill"><i class="fa fa-pencil-square-o fa-lg"></i> <a name="notes" href="{{ .Site.BaseURL }}#notes" name="notes">Notes</a></h3>
+    <div class="lead"><p>Random software related notes I took. Possibly outdated by now.</p></div>
+    <ul class="posts">
+      {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+      {{ range $paginator.Pages }}
+      <li class="index">
+        <div class="index-date">{{ .Date.Format "02.01.2006" }}</div><a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="twelve columns">
+    <h3 class="chill"><i class="fa fa-keyboard-o fa-lg"></i> <a name="toys" href="{{ .Site.BaseURL }}#toys">Toys</a></h3>
+    <div class="lead"><p>Tiny bits I programmed for fun.</p></div>
+    <table class="u-max-full-width">
+      <thead>
+        <tr><th>GitHub Repo</th><th>Language</th><th>Description</th>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://github.com/jtendo/binpp">binpp</a></td><td>Erlang</td><td>Binary pretty-printer</td>
+        <tr><td><a href="https://github.com/aerosol/brainfunk">Brainfunk</a></td><td>Erlang</td><td>Brainfuck implementation</td>
+        <tr><td><a href="https://github.com/aerosol/bumperl">bumperl</a></td><td>Erlang</td><td>Semantic version bumper for Erlang/OTP apps</td>
+        <tr><td><a href="https://github.com/aerosol/decompilerl">decompilerl</a></td><td>Elixir</td><td>Decompile Elixir into Erlang</td>
+        <tr><td><a href="https://github.com/aerosol/django-dilla">django-dilla</a></td><td>Python</td><td>Database spammer</td>
+        <tr><td><a href="https://github.com/aerosol/gen_cycle">gen_cycle</a></td><td>Erlang</td><td>Simple, generic OTP behaviour for recurring tasks</td>
+        <tr><td><a href="https://github.com/aerosol/kai">kai</a></td><td>Erlang</td><td>KairosDB Client</td>
+        <tr><td><a href="https://github.com/aerosol/monotonia">monotonia</a></td><td>VimL/iTerm2</td><td>A minimal colorscheme</td>
+        <tr><td><a href="https://github.com/aerosol/Passy">Passy</a></td><td>Python</td><td>Secure password generator</td>
+        <tr><td><a href="https://github.com/aerosol/dotfiles">silos</a></td><td>VimL/shell</td><td>My dotfiles</td>
+        <tr><td><a href="https://github.com/aerosol/Tabula">Tabula</a></td><td>Elixir</td><td>Tabular pretty-printer for maps/structs collections</td>
+        <tr><td><a href="https://github.com/vim-erlang">vim-erlang suite</a></td><td>VimL/Erlang</td><td>A set of vim plugins to work with Erlang</td>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="row">
+  <div class="twelve columns">
+    <h3 class="chill"><i class="fa fa-microphone fa-lg"></i> <a name="discography" href="{{ .Site.BaseURL }}#discography">Discography</a></h1>
+    <div class="lead"><p>Underground CD/vinyl records you can find my vocals and rhymes on.</p></div>
+    <ul class="posts">
+      <li class="index">
+        <div class="index-date">2016</div><a href="https://www.discogs.com/Aruzo-M%C5%81D-Aruzo-M%C5%81D/release/8802994">Aruzo/MŁD - "Aruzo/MŁD"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2016</div><a href="https://www.discogs.com/Emas-Pi%C4%99%C4%87-Minut-S%C5%82awy/release/8379815">Emas - "Pięć Minut Sławy"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2014</div><a href="https://www.discogs.com/Junes-Nie-EP-P%C5%82yta-D%C5%82ugograj%C4%85ca/release/5072519">Junes - "Nie-EP"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2012</div><a href="https://www.discogs.com/Karwan-Fabryka-Sn%C3%B3w/release/3716110">Karwan - "Fabryka Snów"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2011</div><a href="https://bratstarszy.tumblr.com">Starszy Brat - "Bity, Rymy, Weekend"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2011</div><a href="https://www.discogs.com/DJ-Ike-Listen/release/3216026">DJ Ike - "Listen"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2011</div><a href="https://www.discogs.com/M%C5%81D-Czarlson-EP/release/2691289">MŁD/Czarlson - "MŁD/Czarlson"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2009</div><a href="https://www.discogs.com/Kedyf-Nie-Mog%C4%99-Narzeka%C4%87/release/2201882">Kedyf - "Nie Mogę Narzekać"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2009</div><a href="https://www.discogs.com/WENA-Rasmentalism-Du%C5%BCe-Rzeczy/release/2048875">W.E.N.A. &amp; Rasmentalism - "Duże Rzeczy"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2009</div><a href="https://www.discogs.com/Quiz-Materia%C5%82-Producencki/master/535913">Quiz - "Materiał Producencki"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2008</div><a href="https://www.discogs.com/PIH-Kwiaty-Z%C5%82a/release/1988000">PIH - "Kwiaty Zła"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2007</div><a href="https://www.discogs.com/WENA-Wy%C5%BCsze-Dobro-LP/master/200446">W.E.N.A. - "Wyższe Dobro LP"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2006</div><a href="https://www.discogs.com/Various-JuNouDet/release/1438863">V.A. - "JuNouDet"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2006</div><a href="https://www.discogs.com/Dinal-W-Strefie-Jarania-I-W-Strefie-Rymowania/release/1693413">Dinal - "W strefie jarania i w strefie rymowania"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2005</div><a href="https://www.discogs.com/Zkibwoy-Obskurw-King/release/2618380">Zkibwoy &amp; DJ Ader - "Obskurw King"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="twelve columns">
+    <h3 class="chill"><i class="fa fa-user fa-lg"></i> <a name="about" href="{{ .Site.BaseURL }}#about">About</a></h1>
+    <div class="lead"><p>$ whoami | head -n3</p></div>
+    <img src="images/DSC_5195.jpg"/>
+  </div>
+</div>
+<div class="row">
+  <div class="six columns">
+    <article>
+    <p>I am a software professional working out of Warsaw, Poland with years of hands-on experience with
+    Erlang/OTP production grade systems.</p>
+    <p>I am a team player with strong work ethics. I build, and work with, remote teams worldwide.</p>
+    </article>
+  </div>
+  <div class="six columns">
+    <article>
+    <p>I value privacy, honesty and trust in human relationships; professionally or otherwise I&nbsp; live by the <a hred="https://en.wikipedia.org/wiki/Golden_Rule?oldformat=tru://en.wikipedia.org/wiki/Golden_Rule">Golden Rule</a>.</p>
+    <p>In my private life I enjoy being a dad of two extraordinary
+    human beings.</p>
+    </article>
+    </p>
+  </div>
+</div>
+{{ partial "footer.html" . }}

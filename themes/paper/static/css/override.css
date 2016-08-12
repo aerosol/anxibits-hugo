@@ -1,0 +1,309 @@
+body {
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  background: white;
+  color: #333;
+}
+
+.container {
+}
+
+header {
+  margin: 1em 0 1em 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+header h1 { 
+  font-size: 1.0em;
+  color: #333;
+  font-family: 'Roboto Slab', Georgia, serif;
+  display: inline;
+  font-weight: bold;
+}
+
+header h1 a:hover, header h1 a:link, header h1 a:visited,
+h3 a:hover, h3 a:link, h3 a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+header h1 span.chill {
+  display: none;
+  background: #fff;
+  color: #aaa;
+  padding: 1px 5px 1px 5px;
+  font-weight: normal;
+}
+
+h3 {
+  font: 24px/28px 'Bree Serif', Arial, sans-serif;letter-spacing: 0;
+  padding: 0;
+  margin: 1em 0 1em 0;
+}
+
+h2 {
+  font: 26px/28px 'Bree Serif', Arial, sans-serif;letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+section {
+}
+
+nav {
+  display: none;
+  margin: 0 0 3em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 0 1.2em 0 0;
+}
+
+a .muted {
+  color: #aaa;
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}
+
+.muted {
+  display: none;
+}
+
+table td:nth-child(2), th:nth-child(2) {
+  display: none;
+}
+
+footer {
+  border-top: 4px solid #eee;
+  color: #666;
+  font-style: normal;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer p {
+  margin: 1em;
+}
+
+a {
+  color: #0051a3;
+  padding: 2px;
+  text-decoration: none;
+}
+
+
+i.fa {
+  display: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #095ee8;
+}
+
+.lead {
+  margin: 0 0 1em 0;
+  display: none;
+  color: #aaa;
+}
+
+.lead p {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #eee;
+}
+
+article p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+article ul li {
+  padding: 0.3em;
+
+}
+
+ul.posts {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+
+/* https://avatars1.githubusercontent.com/u/173738 */
+
+ul.posts li {
+  line-height: 1.5em;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+table td {
+  font-size: 1.2em;
+}
+
+table td.desc {
+  color: #ccc;
+}
+
+.index-date{
+  font-size: 90%;
+  font-style: italic;
+  float:left;
+  width: 120px;
+  display: none;
+}
+
+.row img {
+  max-width:100%;
+  max-height:100%;
+}
+
+code, pre {
+  font-family: 'Inconsolata', Monaco, monospace;
+}
+
+main h1 {
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+main h2 {
+  margin-bottom: 1em;
+}
+
+main code, main pre {
+  text-align: justify;
+  background: #eee;
+  color: #000;
+  overflow: scroll;
+  border: none;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #f2eee6;
+}
+
+pre code {
+  padding: 0.3em;
+}
+
+main p code {
+  background: none;
+}
+
+main ul {
+  font-size: 20px;
+  list-style: square;
+}
+
+main ul li {
+  margin: 0 0 0 3em;
+  line-height: 1.5em;
+}
+
+blockquote {
+  background: #e6f1f2;
+  -webkit-border-radius: 8px; /* Saf3+, Chrome */
+  border-radius: 8px; /* Opera 10.5, IE 9 */
+  border: 1px solid #e6f1f2;
+  font-size: 1.1em;
+}
+
+figure {
+  background: #f2eee6;
+  -webkit-border-radius: 8px; /* Saf3+, Chrome */
+  border-radius: 8px; /* Opera 10.5, IE 9 */
+}
+
+figure pre {
+  padding-left: 1em;
+}
+
+figcaption {
+  background: #f2eee6;
+  border-bottom: 1px solid #ccc;
+  padding-left: 1em;
+  font-weight: bold;
+}
+
+blockquote p {
+  padding: 1em;
+  margin: 0;
+}
+
+.asciicast { text-align: center; }
+
+@media (min-width: 600px) {
+  .index-date {
+    display: block;
+  }
+
+  .muted {
+    display: inline;
+  }
+
+  nav {
+    display: block;
+  }
+
+  body {
+    line-height: 2.5em;
+  }
+
+  table td:nth-child(2), th:nth-child(2),
+  table td:nth-child(3), th:nth-child(3) {
+    display: table-cell;
+  }
+
+  ul.posts {
+    list-style-type: none;
+    margin-bottom: 2em;
+    margin-left: 0;
+  }
+
+  .lead {
+    display: block;
+  }
+
+  table td, table th {
+    padding: 0 2em 0 0;
+  }
+
+  h1 {
+    margin-bottom: 0.2em;
+    padding-bottom: 0;
+    border: none;
+  }
+
+  i.fa {
+    display: inline;
+  }
+
+  header h1 span.chill {
+    display: inline;
+  }
+
+  header {
+    margin: 1em 0 0 0;
+  }
+
+  h3 {
+    margin: 1em 0 0.2em 0;
+  }
+}
