@@ -4,16 +4,19 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-d_post=$(date +"%Y-%m-%d %H:%M:%S") # http://fuckinggodateformat.com/ what the fucking fuck
-d_permalink=$(date +"%s")
-cwd="$( cd "$( dirname "$0" )" && pwd )"
+D_POST=$(date +"%Y-%m-%d %H:%M:%S") # http://fuckinggodateformat.com/ what the fucking fuck
+D_PERMALINK=$(date +"%s")
+DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+POST_FILE="$DIR/content/micro/$D_PERMALINK.md"
 
-echo $d_post
-echo $d_permalink
-echo $cwd
+echo "Writing $POST_FILE"
 
-cat > "$cwd/content/micro/${d_permalink}.md" << EOF
+cat > "$POST_FILE" << EOF
 ---
 layout: "micro"
 title: "$@"
 ---
+EOF
+
+git add $POST_FILE
+git commit $POST_FILE -m "Add $D_POST"
