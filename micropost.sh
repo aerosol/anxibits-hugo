@@ -16,5 +16,4 @@ cat > "$cwd/content/micro/${d_permalink}.md" << EOF
 ---
 layout: "micro"
 title: "$@"
-date: "$d_post"
 ---

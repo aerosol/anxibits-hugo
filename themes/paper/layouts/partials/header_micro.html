@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>{{ .Title }} : mtod.org</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Hugo 0.13" />
+
+<base href="{{ .Site.BaseURL }}">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/override.css">
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<link href='fonts/Roboto.css' rel='stylesheet' type='text/css'>
+<link href='fonts/BreeSerif.css' rel='stylesheet' type='text/css'>
+<link href='fonts/Inconsolata.css' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/fontawesome-css/font-awesome.min.css">
+
+{{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="row">
+    <div class="twelve columns">
+      <h1>
+        <a href="{{ .Site.BaseURL }}">anxibits&nbsp;<span class="chill">microblog</span></a>
+      </h1>
+    </div>
+  </div>
+</header>
+<div class="lead"><p>Posted directly from shell, simply because I quit Twitter for a reason</p></div>

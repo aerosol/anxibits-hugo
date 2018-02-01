@@ -1,15 +1,13 @@
 {{ $baseurl := .Site.BaseURL }}
-{{ partial "header.html" . }}
+{{ partial "header_micro.html" . }}
 <main id="content">
 <div class="row">
 <div class="twelve columns">
 <article id="{{ .Slug }}" class="{{ .Type }}">
-    <div class="post-stamp">
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-            {{ .Date.Format "2 Jan 2006" }}
-        </time>
-    </div>
-    <p>{{ .Title }}</h1>
+    <blockquote>
+        <p>{{ .Title }}</h1>
+        <a href="{{ .Permalink }}">#</a>
+    </blockquote>
 </article>
 
 </div>

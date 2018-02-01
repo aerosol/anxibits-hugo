@@ -1,16 +1,15 @@
 {{ $baseurl := .Site.BaseURL }}
-{{ partial "header.html" . }}
+{{ partial "header_micro.html" . }}
 
 <div class="row">
   <div class="twelve columns">
-    <h3 class="chill"><i class="fa fa-pencil-square-o fa-lg"></i> <a name="notes" href="{{ .Site.BaseURL }}#notes" name="notes">Rage & Fun (microblog)</a></h3>
-    <div class="lead"><p>Posted directly from shell, simply because I quit Twitter for a reason</p></div>
-    <ul class="posts">
-      {{ range .Data.Pages }}
+    <ul class="posts micro">
+      {{ range sort .Data.Pages "Permalink" "desc" }}
       <li class="index">
-        <div class="index-date">{{ .Date.Format "02.01.2006" }}</div><a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="index-date"># </div><a href="{{ .Permalink }}">{{ .Title }}</a>
       </li>
       {{ end }}
     </ul>
   </div>
 </div>
+{{ partial "footer.html" . }}

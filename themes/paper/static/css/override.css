@@ -171,6 +171,14 @@ table td.desc {
   display: none;
 }
 
+.micro .index-date{
+  font-size: 90%;
+  font-style: italic;
+  float:left;
+  width: 1em;
+  display: none;
+}
+
 .row img {
   max-width:100%;
   max-height:100%;
@@ -257,6 +265,11 @@ blockquote p {
   .index-date {
     display: block;
   }
+
+  .micro .index-date {
+    display: block;
+  }
+
 
   .muted {
     display: inline;
