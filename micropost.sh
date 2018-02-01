@@ -20,3 +20,4 @@ EOF
 
 git add $POST_FILE
 git commit $POST_FILE -m "Add $D_POST"
+./deploy.sh
