@@ -133,7 +133,11 @@ article p {
 
 article ul li {
   padding: 0.3em;
+}
 
+article.micro p {
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 ul.posts {
