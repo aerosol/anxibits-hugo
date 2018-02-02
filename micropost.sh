@@ -6,7 +6,7 @@ fi
 
 D_POST=$(date +"%Y-%m-%d %H:%M:%S") # http://fuckinggodateformat.com/ what the fucking fuck
 D_PERMALINK=$(date +"%s")
-DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+DIR="$(dirname "$(readlink "$0")")"
 POST_FILE="$DIR/content/micro/$D_PERMALINK.md"
 
 echo "Writing $POST_FILE"
