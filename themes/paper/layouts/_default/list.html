@@ -6,7 +6,10 @@
     <ul class="posts micro">
       {{ range sort .Data.Pages "Permalink" "desc" }}
       <li class="index">
-        <div class="index-date"># </div><a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="index-date">
+          <a href="{{ .Permalink }}">#{{ .Params.timestamp }}</a>
+        </div>
+        {{ .Content }}
       </li>
       {{ end }}
     </ul>

@@ -136,8 +136,16 @@ article ul li {
 }
 
 article.micro p {
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 2.5em;
+  background: #e6f1f2;
+  -webkit-border-radius: 8px; /* Saf3+, Chrome */
+  border-radius: 8px; /* Opera 10.5, IE 9 */
+  border: 1px solid #e6f1f2;
+  padding: 0.5em;
+}
+
+.posts.micro p {
+  display: inline;
 }
 
 ul.posts {
@@ -175,7 +183,7 @@ table td.desc {
   font-size: 90%;
   font-style: italic;
   float:left;
-  width: 1em;
+  width: 10em;
   display: none;
 }
 

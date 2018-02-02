@@ -14,8 +14,9 @@ echo "Writing $POST_FILE"
 cat > "$POST_FILE" << EOF
 ---
 layout: "micro"
-title: "$@"
+timestamp: "$D_PERMALINK"
 ---
+$@
 EOF
 
 git add $POST_FILE

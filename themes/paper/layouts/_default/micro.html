@@ -3,12 +3,7 @@
 <main id="content">
 <div class="row">
 <div class="twelve columns">
-<article id="{{ .Slug }}" class="{{ .Type }}">
-    <blockquote>
-        <p>{{ .Title }}</h1>
-        <a href="{{ .Permalink }}">#</a>
-    </blockquote>
-</article>
+<article id="{{ .Slug }}" class="{{ .Type }}">{{ .Content }}</article>
 
 </div>
 </div>
