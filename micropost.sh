@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 if [ $# -eq 0 ]; then
-    echo "No microblog contents provided"
-    exit 1
+    echo "Post pls:"
+    read POST_CONTENTS
+else
+    POST_CONTENTS=$@
 fi
 
 D_POST=$(date +"%Y-%m-%d %H:%M:%S") # http://fuckinggodateformat.com/ what the fucking fuck
@@ -16,7 +18,7 @@ cat > "$POST_FILE" << EOF
 layout: "micro"
 timestamp: "$D_PERMALINK"
 ---
-$@
+$POST_CONTENTS
 EOF
 
 git add $POST_FILE
