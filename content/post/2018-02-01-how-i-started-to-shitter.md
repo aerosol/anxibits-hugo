@@ -70,7 +70,7 @@ Suddenly, I came to realize that:
 > I already own a simple webserver, the one you’re interacting with, right now.
 
 The website you're looking at, already has RSS, is static, is equipped with all
-the SSL quirks, and is powered by a static weblog generator, Hugo, that happens
+the SSL quirks, and is powered by a static weblog generator, [Hugo](https://gohugo.io/), that happens
 to be written in golang. This is fine, because it takes care of the bits I'm
 not really keen to implement on my own.
 
