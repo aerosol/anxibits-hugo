@@ -128,7 +128,6 @@ a:hover {
 article p {
   font-size: 1.2em;
   line-height: 1.5em;
-  text-align: justify;
 }
 
 article ul li {
@@ -207,7 +206,6 @@ main h2 {
 }
 
 main code, main pre {
-  text-align: justify;
   background: #eee;
   color: #000;
   overflow: scroll;
@@ -234,7 +232,7 @@ main ul {
 
 main ul li {
   margin: 0 0 0 3em;
-  line-height: 1.5em;
+  line-height: 1.0em;
 }
 
 blockquote {
