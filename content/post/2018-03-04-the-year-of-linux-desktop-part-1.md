@@ -29,8 +29,9 @@ I really love the keyboard setup Apple imposes.
 They got it right, it's a killer feature. A single GUI toolkit with clear,
 unified design guidelines is what makes it great.
 
-I'll gamble with Solus Budgie for the initial run. I like the effort a handful
-of developers are putting into it. I'll do my best to contribute.
+I'll gamble with [Solus Budgie](https://solus-project.com/) for the initial run. 
+I like the effort a handful of developers are putting into it. 
+I'll do my best to contribute.
 
 I am getting ready -- the PC is on its way and it's damn powerful, yet
 still way cheaper than this new Macbook with its stupid physical keyboard and ubiquitous 
