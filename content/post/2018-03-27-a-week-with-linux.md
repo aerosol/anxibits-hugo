@@ -117,7 +117,7 @@ stuff, but I don't mind either. What I really need is to make sure everything fi
 together, just works(TM) and **gives me plenty of space for future upgrades**.
 
 To give you the idea - the assembly service was 80 PLN
-which is a roughly an equivalent of EUR 20. Yup, I'm down.
+which is a roughly an equivalent of 20 EUR. Yup, I'm down.
 
 Now, the consultancy (aka "PC Genius" service) - I spent over two hours placing the final order,
 discussing various aspects of the setup with a super friendly assistant.
@@ -166,12 +166,12 @@ The setup I eventually got is as follows:
     replacement ETA. I really don't think people should be working stupid
     hours, but I have to say -- I very much appreciate the effort and responsiveness. Shout out to [x-kom](https://www.x-kom.pl/).
 
-  - HiDPI was not a problem. I have **retina linux**, hands down. Java apps
+  - HiDPI was not a problem. I have a **retina linux**, hands down. Java apps
     probably won't scale and will look tiny or worse. I don't care at this point.
 
   - [Solus Budgie](https://solus-project.com/) -- my distro of choice -- worked out of the box.
 
-    - In the meantime I figured I don't really want a mac clone and
+    - In the meantime, I figured I don't really want a mac clone and
       [i3](https://i3wm.org/docs/userguide.html) is the right WM for me. I had to tweak
       a few things [here and there](https://git.mtod.org/hq1/dotfiles), but hey, after all - I had time (over 45 days)
       to read about the quirks online.
