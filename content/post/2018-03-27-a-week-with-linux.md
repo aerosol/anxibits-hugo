@@ -6,7 +6,7 @@ date: "2018-03-27"
 
 > This is a continuation of my introductory vent.
 > I briefly spoke about the motivations behind
-> [switching from Mac OS to Linux full time](/anxibits/post/2018-03-04-the-year-of-linux-desktop-part-1/)
+> [switching from Mac OS to Linux full time](/anxibits/post/2018-03-04-the-year-of-linux-desktop-part-1/).
 > Today, I'll try to describe all the gotchas and the surprises that really caught me off guard.
 
 ## The Hardware
@@ -19,7 +19,7 @@ and the quirks I knew were included.
 I am a professional software developer. I'm not a rockstar by any means, yet,
 I'm pretty sure top notch hardware/tools is something I just need to have in
 order to get my job well done, just like everyone else investing dedication and care
-to their craft.
+in their craft.
 
 The older I get, the more **freedom-factor matters to me**, too.
 There is some truth to the meme, that with Apple, you don't own anything,
@@ -35,12 +35,12 @@ occasionally for work (with [Firefox containers](https://medium.com/firefox-test
 and creativity it brings to the table.
 
 I used to work on Macs for the past decade or so. I fell in love with Tiger
-at first - it had just the _right_ defaults. It was a downhill from there though.
+at first - it had just the _right_ defaults. It was downhill from there though.
 
 **The time has come. I figured I want Linux at home. On a PC.**
 
 I travel every quarter and that's the only time I really need a laptop, so
-whatever "mobile" hardware I'll have, as long as I can `ssh dadcave`, I'm good.
+whatever mobile hardware I'll have, as long as I can `ssh dadcave`, I'm good.
 
 After a few weeks of research, I finally got a pretty solid idea of what I wanted to go with.
 A simplified decision map is as follows:
@@ -51,7 +51,7 @@ A simplified decision map is as follows:
       no Spectre/Meltdown AFAIK, no random crashes. Not bad [reviews](https://duckduckgo.com/?q=threadripper+linux+review&t=ffab&ia=web) and [sexy benchmarks](https://www.phoronix.com/scan.php?page=article&item=ryzen-linux-10way&num=1) at Phoronix.
 
     - I considered Ryzen series first, but the faulty batch with parallel
-      compilation segfaults made me anxious enough not to give it a go. [People
+      compilation segfaults made me anxious enough to pass on it. [People
       reported problems with Ryzen and Erlang](http://erlang.org/pipermail/erlang-questions/2018-January/094578.html)
       -- that was obviously a deal breaker for me.
 
@@ -64,18 +64,18 @@ A simplified decision map is as follows:
         ![](images/dialyzer.png)
 
   - I did not care about the GPU. I'm not here to mine brocoins. Games?
-    Bloodborne on PS4 is the game I'm going to play for the next year of two. I don't
-    need to play games on my computer, I want to learn &amp; experiment on itcl
+    Bloodborne on PS4 is the game I'm going to play for the next year or two. I don't
+    need to play games on my computer. I want to learn &amp; experiment on it.
 
     - Whatever is able to display 4k at 60Hz is great.
-      I hope HiDPI on Linux works. I read "everywhere" [it's not that
+      I hope HiDPI on Linux works. I read [it's not that
       great](https://www.reddit.com/search?q=hidpi+linux&restrict_sr=&sort=new&t=all)
 
       - Your mileage may vary. But people mainly use laptops, aren't they?
         They also want to run everything under the sun, don't they?
 
       - I'm willing to take the risk.
-        The real reason I sticked to Macs for so long, was the Retina re(s/v)olution.
+        The real reason I stuck to Macs for so long, was the Retina re(s/v)olution.
         Crystal clear things I look at, at least 8h/day. Yeah. Need that.
 
     - I read online that AMD/Asus chips are usually a safe bet with Linux. Same goes for
@@ -86,24 +86,24 @@ some webapps I don't really get the right to choose (resource hungry
 electron shit). I mainly play around with software, listen to music,
 communicate with people I work with. That's it. I'm familiar with Linux,
 I can surely imagine the pain I'm getting myself into. E.g. I don't expect drag
-& drop to uniformly work everywhere and I know I just won't consistent keyboard
-shortcuts across the whole system. I'll do my best to mitigate those issues.
+& drop to uniformly work everywhere and I realize that consistent keyboard
+shortcuts across the whole system may be a pipe dream. I'll do my best to mitigate those issues.
 
 I want to play it safe. I still keep my Macbook around, just in case.
 It's dying, after 3 years of heavy usage. Let's have a minute of silence...
-nope, can't have, the fans are too loud.
+nope, can't have it, the fans are too loud.
 
-I'll try to keep it alive until fully transitioned to freedom.
+I'll try to keep it alive until I'm fully transitioned to freedom.
 
 I watched plenty of videos of people having fun [assembling their PCs](https://www.youtube.com/results?search_query=threadripper+build)
 and [running Linux on Threadripper](https://www.youtube.com/results?search_query=threadripper+linux). 
 
 That was pure unix porn. Yet, I don't think I trust myself enough to fiddle with $1k processor
-and all it's mechanical quirks (especially cooling - the last time I dug in
-a PC was 15 or 20 years ago, pretty sure I'd underestimate the challenge
+and all its mechanical quirks (especially cooling - the last time I dug in
+a PC was 15 or 20 years ago; pretty sure I'd underestimate the challenge
 nowadays).
 
-At this point I was good to go. I did not care much about the case, the power
+At this point, I was good to go. I did not care much about the case, the power
 supply ("can I have a good one please?") etc. [PCPartPicker was insanely helpful
 with their reviews and ratings](https://pcpartpicker.com/). You should check it out
 if you're planning to build/get a PC. There's also [buildapc subreddit](https://www.reddit.com/r/buildapc/) too,
@@ -113,7 +113,7 @@ with tons of excellent data points.
 
 I went to a PC shop. They were insanely helpful with recommending me peripherals 
 I had no true interest in (case, cooling etc.).  I told the consultant I'm not really into flashy LED
-stuff, but I don't mind either; what I really need is to make sure everything fits
+stuff, but I don't mind either. What I really need is to make sure everything fits
 together, just works(TM) and **gives me plenty of space for future upgrades**.
 
 To give you the idea - the assembly service was 80 PLN
