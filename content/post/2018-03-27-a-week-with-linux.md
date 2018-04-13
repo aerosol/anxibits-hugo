@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Linux is in the house"
+title: "A week with Linux"
 date: "2018-03-27"
 ---
 
