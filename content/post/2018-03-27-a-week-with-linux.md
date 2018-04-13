@@ -236,6 +236,8 @@ I have plenty of stuff queued up, that's potentially interesting:
   - `systemd`. People hate it. Also, some don't. Let's find out!
   - Is Elxir compiler CPU-bound? Will it scale with Threadripper's SMP?
     ![](images/elixir.png)
+  - The BIOS (UEFI). It's Sci-Fi these days, supports mouse, over
+    the USB upgrades, mounting network disks and real-time charts. WTF happened to computers while I was gone?
 
   If you feel curious about any of the above, send me an e-mail. It's in the
   footer! `ps -out`.
