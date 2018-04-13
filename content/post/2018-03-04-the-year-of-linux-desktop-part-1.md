@@ -48,3 +48,9 @@ I already took some initial notes, links to further ramblings will appear here.
 Stay tuned.
 
 In RMS we trust. Or something.
+
+
+## Follow ups:
+
+  - [A Week With Linux](/anxibits/post/2018-03-27-a-week-with-linux/)
+
