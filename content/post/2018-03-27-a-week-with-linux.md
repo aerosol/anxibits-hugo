@@ -13,12 +13,12 @@ date: "2018-03-27"
 
 The idea to get a PC was born once a friend showed me the iMac Pro press
 release. That was the main trigger.
-I really wanted all that machine had to offer, but I could not justify the price
+I really wanted all _that_ that machine had to offer, but I could not justify the price
 and the quirks I knew were included.
 
 I am a professional software developer. I'm not a rockstar by any means, yet,
 I'm pretty sure top notch hardware/tools is something I just need to have in
-order to get my job well done, just like everyone else investing dedication and care
+order to get my job done well, just like everyone else investing dedication and care
 in their craft.
 
 The older I get, the more **freedom-factor matters to me**, too.
