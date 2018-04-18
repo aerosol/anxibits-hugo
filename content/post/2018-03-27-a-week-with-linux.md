@@ -11,9 +11,9 @@ date: "2018-03-27"
 
 ## The Hardware
 
-The idea to get a PC was born once a friend showed me the iMac Pro press
+The idea to get a PC machine was born once a friend showed me the iMac Pro press
 release. That was the main trigger.
-I really wanted all _that_ that machine had to offer, but I could not justify the price
+I really wanted all it had to offer, but I could not justify the price
 and the quirks I knew were included.
 
 I am a professional software developer. I'm not a rockstar by any means, yet,
