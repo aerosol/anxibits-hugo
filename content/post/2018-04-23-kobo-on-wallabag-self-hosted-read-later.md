@@ -9,7 +9,7 @@ date: "2018-04-23"
 It's been almost a year since I've chosen [Kobo Aura ONE](https://us.kobobooks.com/products/kobo-aura-one)
 for my ancient Kindle replacement.
 
-I think it's cute, that people refer to it as Swindle.
+I think it's cute that people refer to it as Swindle.
 
 To quickly list all the pros:
 
@@ -18,7 +18,7 @@ To quickly list all the pros:
   - It has a large screen capable of displaying technical books (code snippets
     mainly) in a way that doesn't make me want to hurt myself
 
-  - There's this sweet orange backlight, that really does make a difference
+  - There's this sweet orange backlight that really does make a difference
     for bedtime reading
 
   - As it turns out - it's hackable!
@@ -54,7 +54,7 @@ How about "we can do better"?
 
 > Save and classify articles. Read them later. Freely
 
-It provides a well crafted API, [a hosted version if you will](https://www.wallabag.it/en), does seem to care about your
+It provides a well crafted API, [a hosted version if you wish](https://www.wallabag.it/en), does seem to care about your
 privacy and has mobile clients ready to use.
 
 It looks decent too:
@@ -68,7 +68,7 @@ The [Android version](https://play.google.com/store/apps/details?id=fr.gaulupeau
 
 And then, there's
 [`wallabako`](https://gitlab.com/anarcat/wallabako) ([mirror here](https://git.mtod.org/hq1/wallabako-mirror))
-that exploits the fact, that [Kobo firmware lets you install arbitrary Linux programs
+that exploits the fact that [Kobo firmware lets you install arbitrary Linux programs
 by uploading a `KoboRoot.tgz` archive directly via USB](https://wiki.mobileread.com/wiki/Kobo_Touch_Hacking).
 
 The trick is, you upload that snowflake file, it gets extracted on device restart,
@@ -173,7 +173,7 @@ Configure further at will.
 
 You're now free to install it as a systemd service; it seems that the
 most recent versions of `docker-compose` let you do that with `docker-compose up --no-start`,
-but who knows really. It does respond, we're good for now.
+but who knows really. If it does respond via HTTP(S), we're good for now.
 
 ### Time to patch the Kobo!
 
