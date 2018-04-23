@@ -2,3 +2,4 @@ baseurl = "https://mtod.org/anxibits/"
 languageCode = "en-us"
 title = "anxibits - random encounters of rage and fun"
 theme = "paper"
+enableEmoji = true

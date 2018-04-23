@@ -195,7 +195,7 @@ all you need to do is:
 
 It really works. I mean it. I used
 [Wallabagger](https://addons.mozilla.org/en-US/firefox/addon/wallabagger/) to
-bookmark a random article from the site you're looking at:
+bookmark a *random* :triumph: article from the site you're looking at:
 
 ![](images/bag-preview-kobo.png)
 

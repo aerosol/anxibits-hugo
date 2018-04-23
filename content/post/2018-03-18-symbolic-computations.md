@@ -5,7 +5,7 @@ date: "2018-03-18"
 ---
 
 I went with ruby because I don't know ruby. I have written ~300 LoC of ruby code
-in my life. That'd have been much prettier with Elixir, but hey :trollface:
+in my life. That'd have been much prettier with Elixir, but hey :sunglasses:
 
 Here I am doubling my ruby record.
 
