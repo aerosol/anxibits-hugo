@@ -21,16 +21,16 @@ To quickly list all the pros:
   - There's this sweet orange backlight that really does make a difference
     for bedtime reading
 
-  - As it turns out - it's hackable!
+  - As it turns out -- it's hackable!
 
   - Bonus: it's waterproof. Yeah, couldn't care less.
 
   - Bonus: it's not Amazon! I'm OK with that.
 
-## But wat is Read Later
+## But what is Read Later
 
 I don't really have the mental capacity to read books on a regular basis these days.
-One day, when the kids become self-hosted themselves I hope to revisit that part of my existence.
+One day, when the kids become self-hosted I hope to revisit that part of my existence.
 
 What I am capable of reading though, are the articles I keep stumbling upon on the web,
 whether it's casual mobile browsing or links people share on Signal (obviously
@@ -86,10 +86,10 @@ Here are the steps I took to get it running, end to end:
     reading.
 
   - Install Docker and `docker-compose` unless you feel like spending a whole
-    day, messing around with PHP modules configuration. [Alternative
+    day messing around with PHP modules configuration. [Alternative
     installation methods are properly documented](https://doc.wallabag.org/).
 
-  - Get a LetsEncrypt certificate for the (sub)domain of choice.
+  - Get a LetsEncrypt certificate for the (sub)domain of your choice.
 
 Run the following `docker-compose.yml` with `docker-compose up`:
 
@@ -203,7 +203,7 @@ But...
 
 ### Ah Yes, The Gotchas
 
-  - the service itself is really slow. Perhaps I got used to some ridiculous
+  - The service itself is really slow. Perhaps I got used to some ridiculous
     standards recently, but yeah... it takes a good 10-20 seconds for the clients to
     catch up properly.
 
