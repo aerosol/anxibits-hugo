@@ -86,7 +86,7 @@ Here are the steps I took to get it running, end to end:
     reading.
 
   - Install Docker and `docker-compose` unless you feel like spending a whole
-    day, fucking around with PHP modules configuration. [Alternative
+    day, messing around with PHP modules configuration. [Alternative
     installation methods are properly documented](https://doc.wallabag.org/).
 
   - Get a LetsEncrypt certificate for the (sub)domain of choice.
