@@ -1,11 +1,17 @@
 {{ $baseurl := .Site.BaseURL }}
 {{ partial "header_micro.html" . }}
-<main id="content">
 <div class="row">
-<div class="twelve columns">
-<article id="{{ .Slug }}" class="{{ .Type }}">{{ .Content }}</article>
-
+  <div class="twelve columns">
+    <ul class="posts micro">
+      {{ range sort .Data.Pages "Permalink" "desc" }}
+      <li class="index">
+        <div class="index-date">
+          <a href="{{ .Permalink }}">#{{ .Params.timestamp }}</a>
+        </div>
+        {{ .Content }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 </div>
-</div>
-</main>
 {{ partial "footer.html" . }}
