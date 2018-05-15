@@ -145,7 +145,7 @@ article.micro p {
   display: inline;
 }
 
-ul.posts {
+ul.posts, ul#records {
   list-style-type: square;
   list-style-position: outside;
   margin-bottom: 2em;
@@ -154,7 +154,7 @@ ul.posts {
 
 /* https://avatars1.githubusercontent.com/u/173738 */
 
-ul.posts li {
+ul.posts li, ul#records li {
   font-size: 1.2em;
   text-align: left;
 }
@@ -169,19 +169,11 @@ table td.desc {
 
 .index-date{
   font-size: 90%;
-  font-style: italic;
   float:left;
   width: 120px;
   display: none;
 }
 
-.micro .index-date{
-  font-size: 90%;
-  font-style: italic;
-  float:left;
-  width: 10em;
-  display: none;
-}
 
 .row img {
   max-width:100%;
@@ -271,6 +263,10 @@ blockquote p {
   margin: 0;
 }
 
+.micro blockquote p {
+  padding: 0;
+}
+
 .asciicast { text-align: center; }
 
 @media (min-width: 600px) {
@@ -281,7 +277,6 @@ blockquote p {
   .micro .index-date {
     display: block;
   }
-
 
   .muted {
     display: inline;
@@ -296,7 +291,7 @@ blockquote p {
     display: table-cell;
   }
 
-  ul.posts {
+  ul.posts, ul#records {
     list-style-type: none;
     margin-bottom: 2em;
     margin-left: 0;
@@ -326,5 +321,9 @@ blockquote p {
 
   header {
     margin: 1em 0 0 0;
+  }
+
+  .micro blockquote {
+    padding: 1em;
   }
 }
