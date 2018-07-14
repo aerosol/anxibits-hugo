@@ -1,4 +1,5 @@
 {{ partial "header.html" . }}
+
 <div class="row">
   <div class="twelve columns">
     <h3 class="chill"><i class="fa fa-pencil-square-o fa-lg"></i> <a name="notes" href="{{ .Site.BaseURL }}#notes" name="notes">Notes</a></h3>
@@ -39,6 +40,40 @@
     </table>
   </div>
 </div>
+<div class="row">
+  <div class="twelve columns">
+    <h3 class="chill"><i class="fa fa-user fa-lg"></i> <a name="about" href="{{ .Site.BaseURL }}#about">About</a></h1>
+    <div class="lead"><p>$ whoami | head</p></div>
+  </div>
+</div>
+<div class="row">
+  <div class="six columns">
+    <img src="images/napinka.png" width="410"/>
+    <br/>
+    <small class="copyright">Photo - courtesy of Grzegorz Szczepański &copy; 2018</small>
+  </div>
+  <div class="six columns">
+    <article>
+    <h4>Work</h4>
+    <p>I am a software professional working out of Warsaw, Poland with years of hands-on experience with
+    Erlang/OTP &amp; Elixir, production grade systems.</p>
+    <p>I am a team player with strong work ethics. I build, and work with, remote teams worldwide.</p>
+    <p>I value privacy, honesty and trust in human relationships;
+    professionally or otherwise I&nbsp; try to live by the <a href="https://en.wikipedia.org/wiki/Golden_Rule?oldformat=tru://en.wikipedia.org/wiki/Golden_Rule">Golden Rule</a>.</p>
+    </article>
+  </div>
+  <div class="six columns">
+    <article>
+    <h4>Life</h4>
+    <p>In my private life I enjoy being a dad of two extraordinary
+    human beings.</p>
+    <p>I like basketball, gym, jiu-jitsu, tattoos, swimming &amp; diving with my kids.</p>
+    <p>When I'm fed up, I write rap songs. Occasionally I <a href="#discography">record and release them</a>,
+    paying very little attention to the process.</p>
+    </article>
+  </div>
+</div>
+
 <div class="row">
   <div class="twelve columns">
     <h3 class="chill"><i class="fa fa-microphone fa-lg"></i> <a name="discography" href="{{ .Site.BaseURL }}#discography">Discography</a></h1>
@@ -99,33 +134,6 @@
         <div class="index-date">2005</div><a href="https://www.discogs.com/Zkibwoy-Obskurw-King/release/2618380">Zkibwoy &amp; DJ Ader - "Obskurw King"</a>
       </li>
     </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="twelve columns">
-    <h3 class="chill"><i class="fa fa-user fa-lg"></i> <a name="about" href="{{ .Site.BaseURL }}#about">About</a></h1>
-    <div class="lead"><p>$ whoami | head</p></div>
-    <img src="images/DSC_5195.jpg"/>
-  </div>
-</div>
-<div class="row">
-  <div class="six columns">
-    <article>
-    <h3>Work</h3>
-    <p>I am a software professional working out of Warsaw, Poland with years of hands-on experience with
-    Erlang/OTP &amp; Elixir, production grade systems.</p>
-    <p>I am a team player with strong work ethics. I build, and work with, remote teams worldwide.</p>
-    <p>I value privacy, honesty and trust in human relationships; professionally or otherwise I&nbsp; live by the <a href="https://en.wikipedia.org/wiki/Golden_Rule?oldformat=tru://en.wikipedia.org/wiki/Golden_Rule">Golden Rule</a>.</p>
-  </div>
-  <div class="six columns">
-    <article>
-    <h3>Life</h3>
-    <p>In my private life I enjoy being a dad of two extraordinary
-    human beings.</p>
-    <p>I like basketball, gym, jiu-jitsu, tattoos, swimming &amp; diving with my kids.</p>
-    <p>When I'm fed up, I write rap songs. Occasionally I record and release them,
-    paying very little attention to the latter.</p>
-    </article>
   </div>
 </div>
 {{ partial "footer.html" . }}

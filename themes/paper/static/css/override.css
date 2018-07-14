@@ -5,6 +5,25 @@ body {
   color: #333;
 }
 
+.notice {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-weight: normal;
+  background: #eee;
+  font-size: 0.9em;
+  padding: 0.2em;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  line-height: 1.4em;
+}
+
+footer div.notice p {
+  margin: 0; padding: 0;
+}
+
 .container {
 }
 
@@ -40,6 +59,12 @@ h3 {
   font: 24px/28px 'Bree Serif', Arial, sans-serif;letter-spacing: 0;
   padding: 0;
   margin: 1em 0 1em 0;
+}
+
+h4 {
+  font: 18px/20px 'Bree Serif', Arial, sans-serif;letter-spacing: 0;
+  padding: 0;
+  margin: 0 0 1em 0;
 }
 
 h2 {
@@ -326,4 +351,5 @@ blockquote p {
   .micro blockquote {
     padding: 1em;
   }
+
 }
