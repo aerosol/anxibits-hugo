@@ -53,4 +53,5 @@ In RMS we trust. Or something.
 ## Follow ups:
 
   - [A Week With Linux](/anxibits/post/2018-03-27-a-week-with-linux/)
+  - [Accessing your home computer remotely (now, months with Linux)](/anxibits/post/2018-07-14-accessing-your-home-computer-remotely/)
 

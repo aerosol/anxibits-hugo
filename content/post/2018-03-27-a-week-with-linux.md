@@ -9,6 +9,8 @@ date: "2018-03-27"
 > [switching from Mac OS to Linux full time](/anxibits/post/2018-03-04-the-year-of-linux-desktop-part-1/).
 > Today, I'll try to describe all the gotchas and the surprises that really caught me off guard.
 
+> This post has been granted with a follow-up at: [Accessing your home computer remotely (now, months with Linux)](/anxibits/post/2018-07-14-accessing-your-home-computer-remotely/)
+
 ## The Hardware
 
 The idea to get a PC machine was born once a friend showed me the iMac Pro press
