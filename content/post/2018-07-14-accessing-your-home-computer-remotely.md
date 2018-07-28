@@ -22,7 +22,7 @@ Otherwise all the work is done **[at home](/anxibits/post/2018-03-27-a-week-with
 ## Different strokes for different folks
 
 I'm still on Linux and I'm definitely not looking back, however the initial excitement.
-Bit, the very first desire of having everything
+But, the very first desire of having everything
 carefully tailored and configured by hand is gone now. I realised, i3's minimalism was not for me
 (despite being truly entertaining!),
 because I couldn't really get a decent workflow with it. I've switched to bleeding edge

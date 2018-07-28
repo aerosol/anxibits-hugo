@@ -228,7 +228,6 @@ main h2 {
 main code, main pre {
   background: #eee;
   color: #000;
-  overflow: scroll;
   border: none;
   font-size: 1.1em;
   -webkit-border-radius: 4px;
