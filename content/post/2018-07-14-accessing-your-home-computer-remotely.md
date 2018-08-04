@@ -13,21 +13,25 @@ The reality of course has its ways of verifying the utopian claims, one of the
 most brutal ones being a shitty internet connection in some random middle of
 nowhere.
 
-One of the most enlightening realisations I recently got was: 
+One of the most enlightening realisations I recently got was:
 
-> the fact that I work remotely is the only reason I need a laptop. 
+> the fact that I work remotely is the only reason I need a laptop.
 
 Otherwise all the work is done **[at home](/anxibits/post/2018-03-27-a-week-with-linux/)**.
 
 ## Different strokes for different folks
 
-I'm still on Linux and I'm definitely not looking back, however the initial excitement.
-But, the very first desire of having everything
+I'm still on Linux and I'm definitely not looking back.
+
+
+The very first desire of having everything
 carefully tailored and configured by hand is gone now. I realised, i3's minimalism was not for me
 (despite being truly entertaining!),
-because I couldn't really get a decent workflow with it. I've switched to bleeding edge
+because I couldn't really get a decent workflow with it.
+
+I've switched to bleeding edge
 [KDE (Plasma)](https://kde.org), since it resembles macOS in many ways,
-and it has been so stable ever since, it became boring. A truly rewarding and
+and it has been so stable ever since, it became boring -- a truly rewarding and
 calm experience, despite getting tons of updates **every day**.
 
 BTW I use [Arch](https://archlinux.org) now :joy:. [It's a well established
@@ -115,8 +119,7 @@ port `XXXX` to a local subnet IP. This is pretty straight forward to achieve:
     if in doubt
 
   - Make sure you're not mistaking dhcp**cd** with dhcp**d**, the former is is a
-    client, while the latter is a DHCP server deamon. It's mad easy to make a typo and remain confused for hours. 
-    This is especially try for [configuring your network](https://wiki.archlinux.org/index.php/Network_configuration).
+    client, while the latter is a DHCP server deamon. It's mad easy to make a typo and remain confused for hours.
 
 ##### Run `sshd` service on your home computer.
 
@@ -162,7 +165,7 @@ Host yharnam.local
   # ...
   Port 22
   HostName 192.168.0.20
-  # .... 
+  # ....
 ```
 
 ### Get ready for connection breakages
@@ -192,7 +195,7 @@ making 2g/3g connection ssh experience mainly pleasant.
 
 You need to have it installed on the server (your home machine) as well as the client
 (laptop), and make sure UDP ports in range 60001-60999 are open and forwarded
-at your home router. 
+at your home router.
 
 The installation is simple, `brew install mosh` and `pacman -Sy mosh` did the
 job for me.
