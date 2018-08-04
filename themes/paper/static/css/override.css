@@ -109,6 +109,11 @@ table td:nth-child(2), th:nth-child(2) {
   display: none;
 }
 
+table#toys tr {
+ line-height: 2.5em;
+}
+
+
 footer {
   border-top: 4px solid #eee;
   color: #666;
