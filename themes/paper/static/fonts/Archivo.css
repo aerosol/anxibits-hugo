@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Archivo Regular'), local('Archivo-Regular'), url(archivo_regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Archivo'), local('Archivo'), url(archivo_bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Archivo Medium';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Archivo Medium'), local('Archivo-Medium'), url(archivo_medium.ttf) format('truetype');
+}

@@ -1,0 +1,10 @@
+{{ $baseurl := .Site.BaseURL }}
+{{ partial "header_micro.html" . }}
+<div class="row">
+  <div class="twelve columns">
+    <article class="micro">
+      <blockquote>{{ .Content }}</blockquote>
+    </article>
+  </div>
+</div>
+{{ partial "footer.html" . }}

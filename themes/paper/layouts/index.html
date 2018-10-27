@@ -1,8 +1,45 @@
 {{ partial "header.html" . }}
 
 <div class="row">
+  <div class="five columns">
+    <article>
+    <p>I am a software professional working out of Warsaw, Poland with years of hands-on experience with
+    Erlang/OTP &amp; Elixir, production grade systems.</p>
+    <p>I am an open source enthusiast and a team player with strong work ethics. I build, and work with, remote teams worldwide.</p>
+    </article>
+    <article>
+    <p>I value privacy, honesty and trust in human relationships;
+    professionally or otherwise I&nbsp; try to live by the <a href="https://en.wikipedia.org/wiki/Golden_Rule?oldformat=tru://en.wikipedia.org/wiki/Golden_Rule">Golden Rule</a>.
+    </p>
+    </article>
+    <article>
+      <p>
+      Online presence:&nbsp;
+      <a href="https://keybase.io/hq1" class="">
+        <span class="fa fa-key"></span>
+      </a>&nbsp;
+      <a href="https://github.com/aerosol/">
+        <span class="fa fa-github"></span>
+      </a>&nbsp;
+      <a href="https://linkedin.com/in/hq1yo/">
+        <span class="fa fa-linkedin"></span>
+      </a>
+      </p>
+    </article>
+  </div>
+  <div class="four columns">
+    <article>
+    <img src="images/1qh.jpg"/>
+    <br/>
+    <small class="copyright">Photo: courtesy of Grzegorz Szczepański &copy; 2018</small>
+    </article>
+  </div>
+</div>
+
+
+<div class="row">
   <div class="twelve columns">
-    <h3 class="chill"><i class="fa fa-pencil-square-o fa-lg"></i> <a name="notes" href="{{ .Site.BaseURL }}#notes" name="notes">Notes</a></h3>
+    <h3 class="chill"><a name="notes" href="{{ .Site.BaseURL }}#notes" name="notes">Notes</a></h3>
     <div class="lead"><p>Random software related notes I took. Possibly outdated by now.</p></div>
     <ul class="posts">
       {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
@@ -16,7 +53,7 @@
 </div>
 <div class="row">
   <div class="twelve columns">
-    <h3 class="chill"><i class="fa fa-keyboard-o fa-lg"></i> <a name="toys" href="{{ .Site.BaseURL }}#toys">Toys</a></h3>
+    <h3 class="chill"><a name="toys" href="{{ .Site.BaseURL }}#toys">Toys</a></h3>
     <div class="lead"><p>Tiny bits I programmed for fun.</p></div>
     <table id="toys" class="u-max-full-width">
       <thead>
@@ -43,44 +80,7 @@
 </div>
 <div class="row">
   <div class="twelve columns">
-    <h3 class="chill"><i class="fa fa-user fa-lg"></i> <a name="about" href="{{ .Site.BaseURL }}#about">About</a></h1>
-    <div class="lead"><p>As an introvert, I really enjoy writing all this.</p></div>
-  </div>
-</div>
-<div class="row">
-  <div class="six columns">
-    <article>
-    <h4>Work</h4>
-    <p>I am a software professional working out of Warsaw, Poland with years of hands-on experience with
-    Erlang/OTP &amp; Elixir, production grade systems.</p>
-    <p>I am an open source enthusiast and a team player with strong work ethics. I build, and work with, remote teams worldwide.</p>
-    <p>I value privacy, honesty and trust in human relationships;
-    professionally or otherwise I&nbsp; try to live by the <a href="https://en.wikipedia.org/wiki/Golden_Rule?oldformat=tru://en.wikipedia.org/wiki/Golden_Rule">Golden Rule</a>.
-    </p>
-    </article>
-    <article>
-    <h4>Life</h4>
-    <p>I'm an <a href="https://www.netflix.com/pl-en/Title/80213658">Elder
-      Millennial</a> and in my private life I enjoy being a husband and a dad of two cool
-    human beings.</p>
-    <p>Despite some severe issues with discipline, I like basketball, gym, jiu-jitsu, tattoos, swimming &amp; diving with my kids.</p>
-    <p>When I'm fed up, I write rap songs. Occasionally I <a href="#discography">record and release them</a>,
-    paying very little attention to the process.</p>
-    </article>
-  </div>
-  <div class="six columns">
-    <article>
-    <h4>$ whoami | head</h4>
-    <img src="images/napinka.png" width="410"/>
-    <br/>
-    <small class="copyright">Photo: courtesy of Grzegorz Szczepański &copy; 2018 All Rights Reserved</small>
-    </article>
-  </div>
-</div>
-
-<div class="row">
-  <div class="twelve columns">
-    <h3 class="chill"><i class="fa fa-microphone fa-lg"></i> <a name="discography" href="{{ .Site.BaseURL }}#discography">Discography</a></h1>
+    <h3 class="chill"><a name="discography" href="{{ .Site.BaseURL }}#discography">Discography</a></h1>
     <div class="lead"><p>Underground CD/vinyl records you can find my vocals and rhymes on.</p></div>
     <ul id="records">
       <li class="index">
@@ -124,6 +124,9 @@
       </li>
       <li class="index">
         <div class="index-date">2008</div><a href="https://www.discogs.com/PIH-Kwiaty-Z%C5%82a/release/1988000">PIH - "Kwiaty Zła"</a>
+      </li>
+      <li class="index">
+        <div class="index-date">2007</div><a href="https://www.discogs.com/VNM-Na-Szlaku-Po-Czek/release/1749445">VNM - "Na Szlaku Po Czek"</a>
       </li>
       <li class="index">
         <div class="index-date">2007</div><a href="https://www.discogs.com/WENA-Wy%C5%BCsze-Dobro-LP/master/200446">W.E.N.A. - "Wyższe Dobro LP"</a>
